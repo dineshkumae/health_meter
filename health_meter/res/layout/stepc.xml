@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a5">
+
+    <TextView
+        android:id="@+id/burn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calories Burnt"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#FBFBF9"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total time of walking in secs"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBFBF9" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_gravity="center"
+        android:textColor="#FBFBF9" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_gravity="center"
+        android:textColor="#FBFBF9" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press start button and put in your pocket and start walking.Walk for not less then one minute.Walk regularly to see good results.Burn atleast 100kcal a day to lose weight"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBFBF9" />
+
+"
+    
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="@drawable/a3">"
+
+    
+
+    <TextView
+        android:id="@+id/bhm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:text="BMI HEALTH METER"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/met"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bhm"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="Metric:Height in centimeter and weight in Kilograms are required to calculate bmi"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FBFBF9" />
+
+    <Button
+        android:id="@+id/cont"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/met"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:background="#05FD11"
+        android:padding="10sp"
+        android:text="Continue"
+        android:textColor="#010101" />
+
+"
+    
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a5"
+    android:orientation="vertical"
+    android:padding="20sp" >
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body Mass Index"
+        android:textColor="#FF0000"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/resn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result number"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:textColor="#FBFBF9"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:textColor="#FBFBF9"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/resb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View my Diet"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+         />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Height in cm"
+        android:textColor="#FBFBF9" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Weight in Kilograms"
+        android:textColor="#FBFBF9" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/gend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose gender"
+        android:textColor="#FBFBF9"
+        
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Male" 
+            android:onClick="Gender"
+            android:textColor="#FBFBF9"/>
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:onClick="Gender" 
+            android:textColor="#FBFBF9"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Compute BMI"
+        android:layout_gravity="center"
+        android:textColor="#FBFBF9" />
+
+</LinearLayout>
+</ScrollView>
